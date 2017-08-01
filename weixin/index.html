@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/common.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+    <header class="header">
+        <span>微信</span>
+        <a href="">+</a>
+    </header>
+    <div class="content">
+        <ul class="list">
+            <li>
+                <p><img src="images/1.jpg" alt=""><span>小蛋糕</span><span class="del">删除</span></p>
+            </li>
+            <li>
+                <p><img src="images/1.jpg" alt=""><span>固若金汤</span><span class="del">删除</span></p>
+            </li>
+            <li>
+                <p><img src="images/1.jpg" alt=""><span>人与兽大哥</span><span class="del">删除</span></p>
+            </li>
+            <li>
+                <p><img src="images/1.jpg" alt=""><span>麇骇雉伏</span><span class="del">删除</span></p>
+            </li>
+        </ul>
+    </div>
+    <footer class="footer">
+        <ul>
+            <li>微信</li>
+            <li>通讯录</li>
+            <li>发现</li>
+            <li>我</li>
+        </ul>
+    </footer>
+</body>
+<script type='text/javascript' src='js/jquery.js'></script>
+<script>
+    $(".del").on("click",function(){
+        $(this).parents("li").remove();
+    })
+</script>
+</html>

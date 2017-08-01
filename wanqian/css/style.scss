@@ -1,0 +1,328 @@
+@import url("font-awesome.min.css");
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+html{
+	font-size:62.5%;
+}
+header{
+	width:100%;
+	height:4.3rem;
+	background:#27b8fb;
+	text-align:center;
+	line-height:4.3rem;
+	span{
+	font-size:1.6rem;
+	color:#fdfefe;
+	font-weight:bold;
+	}
+}
+.banner{
+	width:100%;
+	a{
+	width:100%;
+	img{
+	width:100%;
+	height:100%;
+	}
+	}
+}
+nav{
+	width:100%;
+	ul{
+	width:100%;
+	display:flex;
+	padding-top:1rem;
+
+		li{
+		-webkit-flex-grow:1;
+		text-align:center;
+		padding-top:4.5rem;
+			a{
+			width:100%;
+			font-size:1.2rem;
+			color:#262626;
+			font-weight:bold;
+			position:relative;
+
+			span{
+				display:inline-block;
+				width:3.8rem;
+				height:3.8rem;
+				border-radius:50%;
+				background:#f05574;
+				line-height:3.8rem;
+				position:absolute;
+				top:-4rem;
+				left:50%;
+				margin-left:-1.9rem;
+
+				font-size:2.4rem;
+				color:#ffffff;
+				font-weight:bold;
+
+			}
+
+			}
+		}
+		.one{
+			span{
+			background:#ff9d00;
+			}
+
+		}
+		.one1{
+			span{
+			background:#2296f0;
+			}
+
+		}
+		.one2{
+			span{
+			background:#e63315;
+			}
+
+		}
+		.one3{
+		span{
+			background:#adce0d;
+			}
+		}
+		.one4{
+			span{
+			background:#f5be00;
+			}
+
+		}
+		.one5{
+		span{
+
+			background:#30d1bf;
+		}
+		}
+		.one6{
+		span{
+			background:#b05fdf;
+		}
+		}
+	}
+}
+section{
+	width:100%;
+	margin-top:2.5rem;
+	h2{
+		font-size:1.4rem;
+		color:#262526;
+		font-weight:bold;
+		padding-left:1rem;
+		height:1.6rem;
+		line-height:1.6rem;
+		span{
+			display:inline-block;
+			width:.5rem;
+			height:1.6rem;
+			float:left;
+			padding-right:.6rem;
+		img{
+			width:100%;
+			height:100%;
+		}
+		}
+	}
+	a{
+		display:inline-block;
+		padding:0 2rem;
+		padding-top:1rem;
+		img{
+			width:100%;
+			height:100%;
+		}
+	}
+	p{
+		.sir{
+		font-size:1rem;
+		color:#b5b5b5;
+		font-weight:bold;
+		padding-top:0;
+			span{
+			font-size:1.2rem;
+			color:#4cc2fb;
+			font-weight:bold;
+			}
+		}
+		height:2.3rem;
+		line-height:2.3rem;
+		text-align:center;
+
+	}
+	.speak{
+		font-size:1.1rem;
+		color:#3e3e3f;
+		font-weight:bold;
+	}
+}
+.main{
+	width:100%;
+	ul{
+		width:100%;
+		display:flex;
+		li{
+			-webkit-flex-grow:1;
+			padding:1.2rem;
+			a{
+			width:100%;
+			img{
+				width:100%;
+			}
+	}
+		}
+	}
+
+}
+.content{
+	width:100%;
+	margin-top:2.5rem;
+	h2{
+		font-size:1.4rem;
+		color:#262526;
+		font-weight:bold;
+		padding-left:1rem;
+		height:1.6rem;
+		line-height:1.6rem;
+		span{
+			display:inline-block;
+			width:.5rem;
+			height:1.6rem;
+			float:left;
+			padding-right:.6rem;
+		img{
+			width:100%;
+			height:100%;
+		}
+		}
+	}
+	a{
+		display:inline-block;
+		padding:0 2rem;
+		padding-top:1rem;
+		img{
+			width:100%;
+			height:100%;
+		}
+	}
+	h3{
+		height:1.8rem;
+		line-height:1.8rem;
+
+
+		a{
+			font-size:1.4rem;
+			color:#202b37;
+			font-weight:bold;
+			padding-top:0;
+		}
+		span{
+			font-size:1.2rem;
+			color:#fe474f;
+			font-weight:bold;
+		}
+	}
+	p{
+		padding:0 2rem;
+		font-size:.9rem;
+		color:#afafaf;
+		height:1.8rem;
+		line-height:1.8rem;
+		i{
+			padding-right:.3rem;
+		}
+		span{
+		padding-left:1.5rem;
+		}
+}
+}
+.foot{
+	width:100%;
+	a{
+		display:inline-block;
+		padding-top:3rem;
+		img{
+			width:100%;
+			height:100%;
+		}
+	}
+}
+.footer{
+	width:100%;
+	height:4.1rem;
+	background:#27b8fb;
+	text-align:center;
+	line-height:4.1rem;
+	position:relative;
+	margin-top:-5px;
+	ul{
+	width:100%;
+	display:flex;
+	padding-top:1rem;
+
+		li{
+		-webkit-flex-grow:1;
+		text-align:center;
+			a{
+			width:100%;
+			font-size:1rem;
+			color:#ceecfd;
+			position:relative;
+
+			span{
+				display:inline-block;
+				width:2.2rem;
+				height:2.2rem;
+				border-radius:50%;
+				background:#27b8fb;
+				line-height:2.2rem;
+				position:absolute;
+				top:-2.5rem;
+				left:50%;
+				margin-left:-1.1rem;
+				font-size:2.1rem;
+				color:#ceecfd;
+
+
+			}
+
+			}
+		}
+}
+.last{
+	position:absolute;
+	left:50%;
+	margin-left:-19px;
+	top:-1.4rem;
+	i{
+	font-size:30px;
+	color:#fff;
+	}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
