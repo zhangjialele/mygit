@@ -1,4 +1,3 @@
 var a=10;
-var b=10+"A";
-
+var b=100;
 console.log(a+b);
