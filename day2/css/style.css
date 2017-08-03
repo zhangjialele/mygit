@@ -1,0 +1,90 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: .12rem; }
+
+header {
+  height: .42rem;
+  line-height: .42rem;
+  background: #393a3f;
+  display: flex;
+  font-size: .15rem;
+  color: #ffffff; }
+  header .left {
+    width: 10%;
+    height: 100%;
+    text-align: center; }
+  header .right {
+    width: 90%;
+    position: relative; }
+    header .right p {
+      padding-left: .1rem;
+      border-left: 1px solid #2f3035; }
+    header .right i {
+      position: absolute;
+      right: .2rem;
+      top: .15rem; }
+
+section {
+  flex: 1;
+  background: #818d9b;
+  padding: .65rem .12rem; }
+  section .main {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 15px; }
+    section .main .logo {
+      width: 40%;
+      display: inline-block;
+      padding-top: .3rem; }
+      section .main .logo img {
+        width: 100%; }
+    section .main .tit {
+      line-height: .32rem;
+      color: #383b40;
+      font-size: .15rem; }
+    section .main .phone {
+      margin-top: .3rem;
+      padding-left: .25rem;
+      padding-right: .25rem; }
+      section .main .phone p {
+        height: .35rem;
+        border-bottom: 1px solid #c9cdcc;
+        padding-left: .25rem;
+        position: relative; }
+        section .main .phone p img {
+          width: .12rem;
+          height: .19rem;
+          position: absolute;
+          left: .12rem;
+          top: .05rem; }
+        section .main .phone p input {
+          width: 100%;
+          height: 100%;
+          border: none;
+          padding-left: .1rem;
+          padding-right: .1rem; }
+        section .main .phone p ::-webkit-input-placeholder {
+          color: #afafaf;
+          font-size: .1rem; }
+    section .main .btn {
+      padding: .35rem .25rem; }
+      section .main .btn span {
+        display: inline-block;
+        width: 100%;
+        height: .33rem;
+        line-height: .33rem;
+        background: #2fba77;
+        border-radius: 5px;
+        color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */
